@@ -1,0 +1,4 @@
+.card-title.cursor-pointer{transition: 0.3s ease;}
+.card-title.cursor-pointer:hover{
+  color: dodgerblue;
+}

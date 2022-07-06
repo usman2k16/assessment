@@ -1,0 +1,5 @@
+<div class="sidebar">
+  <a  routerLinkActive="active" [class.active]="showClass === '/app/posts'" (click)="cHeaderComponent_NavigatetoPosts()"><i class="fa fa-envelope-open"></i> Posts</a>
+  <a routerLinkActive="active" [class.active]="showClass === '/app/users'" (click)="cHeaderComponent_Navigatetousers()"><i class="fa fa-user"></i> Users</a>
+  <a routerLinkActive="active" [class.active]="showClass === ''" (click)="cHeaderComponent_logOut()"><i class="fa fa-sign-out"></i> Logout</a>
+</div>

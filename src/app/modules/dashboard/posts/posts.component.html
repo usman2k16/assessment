@@ -1,0 +1,14 @@
+<app-sidebar></app-sidebar>
+
+<div class="row">
+  <div class="col-12 p-3">
+    <div class="content">
+      <ul class="list-group">
+        <li *ngFor="let post of lPosts" class="list-group-item cursor-pointer"  (click)="cPostsComponent_NavigateToPostDetails(post.id,post.userId)">
+          <h5 class=" mr-2">PostID: {{post?.id}}</h5>
+         <h5> Title: {{post?.title}}</h5>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+
+<div class="bg">
+  <div class="container">
+      <section id="content">
+          <form [formGroup]="fLoginForm">
+              <h1>Login</h1>
+              <div>
+                  <input type="text" placeholder="Username" required="" id="username" formControlName="email" />
+              </div>
+              <div>
+                  <input type="password" placeholder="Password" required="" id="password"  formControlName="password"/>
+              </div>
+              <div>
+                  <input type="submit" (click)="cLoginComponent_LogInUser()" value="Log in" />
+
+              </div>
+          </form><!-- form -->
+
+      </section><!-- content -->
+  </div><!-- container -->
+</div>

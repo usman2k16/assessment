@@ -1,0 +1,28 @@
+<app-sidebar></app-sidebar>
+<div class="row">
+  <div class="col-6 p-3">
+
+    <div class="content">
+      <div class="card shadow">
+        <div class="card-body">
+          <h6>Name: </h6>
+          <p>{{oUserDetails?.name}}</p>
+          <h6>Address: </h6>
+          <p>City: {{oUserDetails?.address.city}}</p>
+          <p>Geo (lat): {{oUserDetails?.address.geo.lat}}</p>
+          <p>Geo (lng): {{oUserDetails?.address.geo.lng}}</p>
+          <p>Street: {{oUserDetails?.address.street}}</p>
+          <p>Suite: {{oUserDetails?.address.suite}}</p>
+          <p>Zipcode: {{oUserDetails?.address.zipcode}}</p>
+          <h6>Company: </h6>
+          <p>Name: {{oUserDetails?.company.name}}</p>
+          <p>bs: {{oUserDetails?.company.bs}}</p>
+          <p>Catch Phrase: {{oUserDetails?.company.catchPhrase}}</p>
+          <hr>
+          <p class="fw-bold">Total Posts: {{lUserPosts?.length}}</p>
+        </div>
+        </div>
+      </div>
+
+  </div>
+</div>

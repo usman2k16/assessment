@@ -1,0 +1,16 @@
+<app-sidebar></app-sidebar>
+
+<div class="row">
+  <div class="col-12 p-3">
+    <div class="content">
+      <div class="card shadow">
+        <div class="card-body">
+          <h5 class="card-title cursor-pointer" (click)="cPostDetailsComponent_navigateToUserDetailsPage(oUserDetails?.id)">Author: {{oUserDetails?.name}}</h5>
+          <h5 class="card-title">Email:: {{oUserDetails?.email}}</h5>
+        </div>
+      </div>
+      <!-- <p (click)="cPostDetailsComponent_navigateToUserDetailsPage(oUserDetails?.id)">Author: {{oUserDetails?.name}}</p>
+      <p>Email: {{oUserDetails?.email}}</p> -->
+    </div>
+  </div>
+</div>

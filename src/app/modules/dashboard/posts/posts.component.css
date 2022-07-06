@@ -1,0 +1,16 @@
+ul li{
+  transition: 0.3s ease;
+}
+ul li:hover
+{
+  background-color: dodgerblue;
+  color: white;
+}
+.bg-dodger-blue{
+  background-color: dodgerblue;
+  transition:  0.3s ease;
+}
+li:hover .bg-dodger-blue{
+  background-color: #fff;
+  color: dodgerblue;
+}
